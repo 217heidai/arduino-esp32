@@ -24,7 +24,7 @@ def main():
             dir = os.path.join(pwd, "json")
             if not os.path.exists(dir):
                 os.mkdir(dir)
-            fileName = os.path.join(pwd, "package_esp32_index.json")
+            fileName = os.path.join(dir, "package_esp32_index.json")
             if os.path.exists(fileName):
                 os.remove(fileName)
             with open(fileName, "w") as f:

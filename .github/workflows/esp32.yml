@@ -1,4 +1,4 @@
-name: Update Filters
+name: Update Package
 on: 
   workflow_dispatch:
   schedule:
@@ -8,7 +8,7 @@ env:
   TZ: Asia/Shanghai
 
 jobs:
-  Update_Filters:
+  Update_Package:
     runs-on: ubuntu-latest
 
     steps:
